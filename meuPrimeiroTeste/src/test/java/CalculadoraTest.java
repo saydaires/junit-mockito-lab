@@ -21,7 +21,6 @@ public class CalculadoraTest {
 
     @Test
     public void deveSubtrairDoisValores() {
-        Calculadora calculadora = new Calculadora();
         double valorA = 10;
         double valorB = 20;
         double resultado = calculadora.diminuir(valorA, valorB);
